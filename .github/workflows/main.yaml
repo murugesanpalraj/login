@@ -33,6 +33,8 @@ jobs:
         aws-access-key-id: 'AKIAU6GD3EOWPHT6ANNL'
         aws-secret-access-key: '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'
         aws-region: 'eu-north-1'
+    - name: Copy to S3
+      run: aws s3 sync .build/. s3://open
 
 
 
