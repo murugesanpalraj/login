@@ -26,6 +26,10 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+
+    - name: install dep
+      run : npm install
+
     - name: Build Web
       run : npm run build
     - name: Configure AWS credentials
