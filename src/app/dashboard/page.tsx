@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const dashboard = () => {
   return (
-    <div>dashboard</div>
+    <div>dashboard fff hello</div>
   )
 }
 
